@@ -1,0 +1,7 @@
+# ------------------------------------------------------------------------------
+# Office Suite
+# ------------------------------------------------------------------------------
+cask 'microsoft-word'
+cask 'microsoft-excel'
+cask 'microsoft-powerpoint'
+# cask 'microsoft-office'

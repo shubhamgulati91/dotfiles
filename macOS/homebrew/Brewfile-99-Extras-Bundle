@@ -1,0 +1,168 @@
+# ------------------------------------------------------------------------------
+# Taps
+# ------------------------------------------------------------------------------
+tap 'homebrew/cask-fonts'
+tap 'mongodb/brew'
+
+# ------------------------------------------------------------------------------
+# Fonts
+# ------------------------------------------------------------------------------
+cask 'font-fira-code-nerd-font'
+cask 'font-jetbrains-mono-nerd-font'
+
+# ------------------------------------------------------------------------------
+# Mac Apps
+# ------------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------
+## Productivity
+# ------------------------------------------------------------------------------
+cask 'bitwarden'
+cask 'kindle'
+cask 'grammarly'
+cask 'cheatsheet'
+
+# ------------------------------------------------------------------------------
+## Communication
+# ------------------------------------------------------------------------------
+cask 'slack'
+cask 'discord'
+cask 'skype'
+
+# ------------------------------------------------------------------------------
+## System
+# ------------------------------------------------------------------------------
+cask 'cleanmymac'
+cask 'onyx'
+cask 'lulu'
+cask 'namechanger'
+cask 'cryptomator' # arm mac not supported yet; requires macFUSE 4.x or else WebDAV update from Apple
+cask 'scroll-reverser'
+cask 'coconutbattery'
+cask 'hiddenbar'
+cask 'rectangle'
+cask 'moom' # premium app
+cask 'eqmac' # arm mac not supported yet
+cask 'skitch' # arm mac not supported yet
+cask 'osxfuse' # arm mac not supported yet
+
+# ------------------------------------------------------------------------------
+## Cloud Storage
+# ------------------------------------------------------------------------------
+cask 'google-backup-and-sync'
+cask 'onedrive'
+cask 'megasync'
+cask 'dropbox'
+cask 'google-drive-file-stream' # arm mac not supported yet
+
+# ------------------------------------------------------------------------------
+# Quicklook Plugins
+# ------------------------------------------------------------------------------
+cask 'qlcolorcode'
+cask 'quicklookase'
+cask 'provisionql'
+
+# ------------------------------------------------------------------------------
+# CLI Tools
+# ------------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------
+## Shell Utilities
+# ------------------------------------------------------------------------------
+brew 'youtube-dl'
+brew 'tmux'
+brew 'ffmpeg' # arm mac not supported yet
+
+# ------------------------------------------------------------------------------
+# Editors
+# ------------------------------------------------------------------------------
+brew 'vim', args: ["--with-lua"]
+
+# ------------------------------------------------------------------------------
+# Development Tools
+# ------------------------------------------------------------------------------
+cask 'insomnia'
+cask 'lens'
+cask 'graphql-playground'
+cask 'firefox'
+cask 'atext'
+cask 'github'
+cask 'diffmerge'
+cask 'fastlane'
+cask 'gpg-suite'
+cask 'microsoft-remote-desktop-beta'
+cask 'ngrok'
+cask 'opera'
+cask 'postman'
+cask 'robo-3t'
+cask 'sequel-pro'
+cask 'psequel'
+cask 'dash' # premium subscription app; alt https://devdocs.io/
+
+# ------------------------------------------------------------------------------
+## Database
+# ------------------------------------------------------------------------------
+brew 'mysql'
+brew 'postgresql'
+brew 'mongodb-community' # requires tap 'mongodb/brew'
+brew 'elasticsearch'
+cask 'redis'
+cask 'mysqlworkbench' # --appdir="/Applications"
+
+# ------------------------------------------------------------------------------
+## Containers
+# ------------------------------------------------------------------------------
+brew 'docker-compose'
+cask 'docker'
+brew 'minikube' # arm mac not supported yet
+brew 'kubernetes-cli' # arm mac not supported yet
+
+# ------------------------------------------------------------------------------
+## Virtualization
+# ------------------------------------------------------------------------------
+cask 'vmware-fusion'
+cask 'parallels'
+cask 'virtualbox' # arm mac not supported yet
+
+# ------------------------------------------------------------------------------
+# Media & Content Creation Tools
+# ------------------------------------------------------------------------------
+cask 'gimp'
+cask 'handbrake'
+cask 'audacity' # removed from casks
+
+# ------------------------------------------------------------------------------
+# CLI Tools
+# ------------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------
+## Dev Utilities
+# ------------------------------------------------------------------------------
+brew 'heroku'
+brew 'awscli'
+brew 'mosh'
+
+# ------------------------------------------------------------------------------
+## SDKs
+# ------------------------------------------------------------------------------
+cask 'adoptopenjdk12'
+brew 'node@14'
+brew 'openjdk'
+
+brew 'jhipster'
+
+brew 'gatsby-cli'
+brew 'vips'
+
+# ------------------------------------------------------------------------------
+# Mac Apps
+# ------------------------------------------------------------------------------
+# mas 'iMovie', id: 408981434
+# mas 'Pages', id: 409201541
+# mas 'Numbers', id: 409203825
+# mas 'Keynote', id: 409183694
+
+# mas 'XCode', id: 497799835
+
+# mas 'Dropover', id: 1355679052
+# mas 'Unsplash Wallpapers', id: 1284863847
